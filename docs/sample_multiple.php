@@ -26,8 +26,6 @@ $values = array(
                 'nocompte'     => '12345678901',
                 'key'          => '46'
                 ),
-    'cc'    => '6762195515061813',
-    'cc2'   => '6762195515061814',
     'mail'  => 'foo@example.com',
     'hissiret' => '441 751 245 00016',
     'mystring' => 'ABCDEabcde',
@@ -39,8 +37,6 @@ $opts = array(
     'name'  => array('type'=>'email','check_domain'=>false),
     'rib'   => array('type'=>'FR_rib'),
     'rib2'  => array('type'=>'FR_rib'),
-    'cc'    => array('type'=>'Finance_CreditCard_number'),
-    'cc2'   => array('type'=>'Finance_CreditCard_number'),
     'mail'  => array('type'=>'email'),
     'hissiret' => array('type'=>'FR_siret'),
     'mystring' => array('type'=>'string',array('format'=>VALIDATE_ALPHA, 'min_length'=>3)),
