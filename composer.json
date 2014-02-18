@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Validate_LV": "./"
+            "Validate": "./"
         }
     },
     "description": "Validation class for Latvia",
